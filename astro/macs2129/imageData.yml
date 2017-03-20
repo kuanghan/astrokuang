@@ -1,0 +1,80 @@
+# Defines the image names for each cluster, to be used in making the montage
+# plots.
+hst_imgdir:
+    MACS1149:   "/Users/khuang/SurfsUp/MACS1149/hst/hff/60mas"
+    MACS0717:   "/Users/khuang/SurfsUp/MACS0717/hst/hff/60mas"
+    MACS0454:   "/Users/khuang/SurfsUp/MACS0454/hst/60mas"
+    MACS1423:   "/Users/khuang/SurfsUp/MACS1423/hst/60mas"
+    MACS2129:   "/Users/khuang/SurfsUp/MACS2129/hst/60mas"
+    MACS0744:   "/Users/khuang/SurfsUp/MACS0744/hst/60mas"
+    RXJ1347:    "/Users/khuang/SurfsUp/RXJ1347/hst/60mas"
+    RCS2327:    "/Users/khuang/SurfsUp/RCS2327/hst/60mas"
+hstImages:
+    f160w:
+        MACS1149: "f160w_macs1149_hffclash_60mas_drz.fits"
+        MACS0717: "f160w_macs0717_hffclash_60mas_drz.fits"
+        MACS0454: "F160W_macs0454_60mas_cut_drz_geo.fits"
+        MACS1423: "f160w_macs1423_cut_60mas_wglass_drz.fits"
+        MACS2129: "f160w_macs2129_cut_60mas_wglass_drz.fits"
+        MACS0744: "f160w_macs0744_cut_60mas_blksum_drz.fits"
+        RXJ1347:  "f160w_rxj1347_cut_60mas_wglass_drz.fits"
+        RCS2327:  "f160w_rcs2327_cut_60mas_drz_geo.fits"
+    f125w:
+        MACS1149: "f125w_macs1149_hffclash_60mas_drz.fits"
+        MACS0717: "f125w_macs0717_hffclash_60mas_drz.fits"
+        # MACS0454: "F125W_macs0454_60mas_cut_drz_geo.fits"
+        MACS1423: "f125w_macs1423_cut_60mas_wglass_drz.fits"
+        MACS2129: "f125w_macs2129_cut_60mas_wglass_drz.fits"
+        MACS0744: "f125w_macs0744_cut_60mas_blksum_drz.fits"
+        RXJ1347:  "f125w_rxj1347_cut_60mas_wglass_drz.fits"
+        RCS2327:  "f125w_rcs2327_cut_60mas_drz_geo.fits"
+    f110w:
+        MACS1149: "f110w_macs1149_hffclash_60mas_drz.fits"
+        MACS0717: "f110w_macs0717_hffclash_60mas_drz.fits"
+        MACS0454: "F110W_macs0454_60mas_cut_drz_geo.fits"
+        MACS1423: "f110w_macs1423_cut_60mas_wglass_drz.fits"
+        MACS2129: "f110w_macs2129_cut_60mas_wglass_drz.fits"
+        MACS0744: "f110w_macs0744_cut_60mas_blksum_drz.fits"
+        RXJ1347:  "f110w_rxj1347_cut_60mas_wglass_drz.fits"
+        # RCS2327:  "f110w_rcs2327_cut_60mas_drz.fits"
+    f814w:
+        MACS1149: "f814w_macs1149_hffclash_60mas_drz.fits"
+        MACS0717: "f814w_macs0717_hffclash_60mas_drz.fits"
+        MACS0454: "F814W_macs0454_60mas_cut_drz_geo.fits"
+        MACS1423: "f814w_macs1423_cut_60mas_blksum_drz.fits"
+        MACS2129: "f814w_macs2129_cut_60mas_blksum_drz.fits"
+        MACS0744: "f814w_macs0744_cut_60mas_blksum_drz.fits"
+        RXJ1347:  "f814w_rxj1347_cut_60mas_blksum_drz.fits"
+        RCS2327:  "f814w_rcs2327_cut_60mas_drz_geo.fits"
+    f555w:
+        MACS0454: "F555W_macs0454_60mas_cut_drz.fits"
+    f435w:
+        MACS1149: "f435w_macs1149_hffclash_60mas_drz.fits"
+        MACS0717: "f435w_macs0717_hffclash_60mas_drz.fits"
+        # MACS0454: "F435W_macs0454_60mas_cut_drz_geo.fits"
+        MACS1423: "f435w_macs1423_cut_60mas_blksum_drz.fits"
+        MACS2129: "f435w_macs2129_cut_60mas_blksum_drz.fits"
+        MACS0744: "f435w_macs0744_cut_60mas_blksum_drz.fits"
+        RXJ1347:  "f435w_rxj1347_cut_60mas_blksum_drz.fits"
+        RCS2327:  "f435w_rcs2327_cut_60mas_drz_geo.fits"
+iracImages:
+    ch1:
+        MACS1149: "ch1_macs1149_cut_drz.fits"
+        MACS0717: "ch1_macs0717_cut_drz.fits"
+        MACS0454: "ch1_macs0454_cut_drz.fits"
+        MACS1423: "ch1_macs1423_cut_drz.fits"
+        MACS2129: "ch1_macs2129_cut_drz.fits"
+        MACS0744: "ch1_macs0744_cut_drz.fits"
+        RXJ1347:  "ch1_rxj1347_cut_drz.fits"
+        RCS2327:  "ch1_rcs2327_cut_drz.fits"
+    
+    ch2:
+        MACS1149: "ch2_macs1149_cut_drz.fits"
+        MACS0717: "ch2_macs0717_cut_drz.fits"
+        MACS0454: "ch2_macs0454_cut_drz.fits"
+        MACS1423: "ch2_macs1423_cut_drz.fits"
+        MACS2129: "ch2_macs2129_cut_drz.fits"
+        MACS0744: "ch2_macs0744_cut_drz.fits"
+        RXJ1347:  "ch2_rxj1347_cut_drz.fits"
+        RCS2327:  "ch2_rcs2327_cut_drz.fits"
+
